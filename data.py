@@ -34,5 +34,6 @@ print(page1_text)
 pattern = re.compile(r"Protierty Address: (\d{5} [^\n]+)")
 matches = pattern.findall(page1_text)
 # print(matches)         #print all string in list format
-str1 = matches[0]
+print(matches)  # return whole address
+str1 = matches[0]  # accesing the first element
 print(str1)
