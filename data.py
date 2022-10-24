@@ -21,7 +21,7 @@ file = PyPDF2.PdfFileReader('Property_Paper.pdf')
 page1 = file.getPage(0)  # get the dat of first page
 
 page1_text = page1.extractText()
-# print(page1_text)
+print(page1_text)
 
 
 # print(file.getPage(0).extractText())
