@@ -18,7 +18,7 @@ from pdfminer.high_level import extract_pages, extract_text
 
 file = PyPDF2.PdfFileReader('Property_Paper.pdf')
 
-page1 = file.getPage(0)  # get the dat of first page
+page1 = file.getPage(0)  # get the data of first page
 
 page1_text = page1.extractText()
 print(page1_text)
